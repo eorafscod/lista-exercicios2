@@ -85,6 +85,7 @@ app.get('/peso-ideal', (req, res) => {
     res.send(`Peso ideal: ${pesoIdeal.toFixed(2)} kg`);
   });
 
+  
 /* Iniciar o servidor */
 app.listen(3000), () => {
   console.log(`API iniciada! Rodando em http://localhost:3000`);
